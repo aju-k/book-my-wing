@@ -345,3 +345,39 @@ p {
   display: flex;
   position: relative;
 }
+
+
+.overlay-card-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.overlay-card-container .overlay-card{
+  position: relative;
+  border-radius: 2px;
+}
+
+.overlay-card img{
+  transform: rotate(0.75turn);
+}
+
+.overlay-card .overlay-shadow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  transform: rotate(0.75turn);
+  color: #fff;
+}
+
+.overlay-card .text{
+  font-size: 32px;
+  font-weight: 700;
+  transform: rotate(0.25turn);
+}
