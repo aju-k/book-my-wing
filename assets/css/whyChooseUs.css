@@ -1,13 +1,27 @@
 
 .whychooseus-card-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding-left: 300px;
+    padding-right: 300px
+}
+
+
+/*
+.whychooseus-card-container {
     display: flex;
     gap: 55px;
     align-items: center;
     justify-content: center;
-    /*margin-left: 300px;
-    margin-right: 300px;*/
+    //margin-left: 300px;
+    //margin-right: 300px;
     flex-wrap: wrap;
 }
+*/
 
 .whychooseus-page-heading {
     font-size: 25px;
@@ -38,6 +52,11 @@
     font-style: normal;
     font-family: serif;
     text-align: center;
+    overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
 }
 
 .whychooseus-page-img-div img{

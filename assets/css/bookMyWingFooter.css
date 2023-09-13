@@ -1,0 +1,59 @@
+
+.whychooseus-page-main {
+    background-color: rgb(16, 17, 17);
+    color: white;
+    /*background-image: url("../images/footer_background.png");*/
+}
+
+.footer-card-container {
+    display: grid;
+    justify-content: center;
+    font-family: system-ui;
+    font-size: 13px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding-left: 110px;
+}
+
+.footer-card-img-div img {
+    width: 200px;
+}
+
+.footer-card-links-title {
+    font-weight: 600;
+}
+
+.footer-card-contacts-title {
+    font-weight: 600;
+}
+
+.footer-card-logo-title {
+    font-weight: 600;
+}
+.footer-card-img-description {
+    color: #fcf4f4bd;
+    width: 200px;
+}
+
+.footer-card {
+    width: 170px;
+}
+
+.footer-card-links-description a {
+    text-decoration: none;
+    color: #fcf4f4bd;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+}
+
+.footer-card-contacts-description {
+    color: #fcf4f4bd;
+    width: 147px;
+}
+
+.footer-card-logo-images img {
+    width: 20px;
+    padding: 2px;
+}
