@@ -1,0 +1,103 @@
+.trending-cards {
+    width: 270px;
+    border: solid 2px rgb(228 222 222);
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    position: relative;
+}
+
+   
+.trending-cards-container {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.trendingProject-page-heading {
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: system-ui;
+    padding-top: 35px;
+}
+
+.trending-cards-item-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    
+  }
+
+  .trending-cards-button {
+    background-color: hsl(0deg 75.61% 51.58%);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+   
+}
+
+.trending-cards-arrow {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.trending-cards-arrow img {
+    height: 40px;
+}
+
+p.trending-cards-price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p.trending-cards-apartment {
+    color: #676363;
+    font-weight: 500;
+}
+
+p.trending-location {
+    color: #676363;
+    font-weight: 500;
+}
+
+.wrap-text {
+    color: #676363;
+    font-weight: bold;
+}
+
+.trending-cards-item-description {
+    padding-left: 20px;
+    line-height: 0.7;
+    margin-bottom: 30px;
+}
+
+.trending-cards-item-overlapimage  img{
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.trending-cards-item-overlapimage {
+    position: absolute;
+    right: 90px;
+    top: 165px;
+}
+
+.newly-launch-section {
+    background-color: #f7f5f5;
+    height: 550px;
+}

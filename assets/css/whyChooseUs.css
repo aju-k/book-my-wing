@@ -1,9 +1,6 @@
 
 .whychooseus-card-container {
     display: grid;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     grid-row-gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     padding-left: 300px;
@@ -31,7 +28,7 @@
     font-family: system-ui;
 }
 
-.whychooseus-card{
+.whychooseus-card {
     border: solid 1px rgb(171, 171, 171);
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
@@ -39,7 +36,7 @@
     padding: 15px;
 }
 
-.whychooseus-card-title{
+.whychooseus-card-title {
     font-weight: bold;
     text-align: center;
     font-size: 11px;
@@ -59,7 +56,7 @@
    -webkit-box-orient: vertical;
 }
 
-.whychooseus-page-img-div img{
+.whychooseus-page-img-div img {
     border-radius: 50%;
     background-color: hsl(0, 35%, 66%);
     display: block;
