@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #dd3838;
+  --secondary-color: #db6060;
+  --text-color: #fff;
+}
+
+.generic-bold {
+  font-weight: bold;
+}
+
+.basic-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equal-section {
+  flex: 1;
+}
+
+body {
+  margin: 0;
+  align-content: space-around;
+  font-family: "Roboto";
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 12px;
+}
+
+p {
+  margin: 0;
+}
+
+br {
+  margin: 0;
+  padding: 0;
+}
+
+.black-background {
+  background-color: black;
+  color: white;
+}
+
+.about-us-card-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.about-us-logo {
+  width: 200px;
+  object-fit: fill;
+}
+
+.about-us-inner-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-us-card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.follow-us-img img {
+  width: 20px;
+  padding: 2px;
+}

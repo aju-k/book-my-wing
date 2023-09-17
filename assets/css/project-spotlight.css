@@ -1,0 +1,147 @@
+:root {
+  --primary-color: #dd3838;
+  --secondary-color: #db6060;
+  --text-color: #fff;
+}
+
+.generic-bold {
+  font-weight: bold;
+}
+
+.basic-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equal-section {
+  flex: 1;
+}
+
+body {
+  margin: 0;
+  align-content: space-around;
+  font-family: "Roboto";
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 12px;
+}
+
+p {
+  margin: 0;
+}
+
+br {
+  margin: 0;
+  padding: 0;
+}
+
+.spotlight-container {
+  display: flex;
+  flex: wrap;
+  position: relative;
+}
+
+.spotlight-firsthalf {
+  object-fit: contain;
+  flex: 1;
+  background: rgb(242, 221, 224);
+}
+
+.spotlight-secondhalf {
+  flex: 1;
+}
+
+.spotlight-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: black;
+  color: var(--text-color);
+}
+
+.spotlight-secondhalf img {
+  object-fit: fill;
+  width: 100%;
+  height: 400px;
+}
+
+.spotlight-row1 {
+  display: flex;
+  padding: 30px 0px 30px 30px;
+  flex-direction: column;
+}
+
+.spotlight-row1-heading {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.spotlight-row1-subheading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.spotlight-row1-img {
+  width: 20px;
+}
+
+.spotlight-inner-div1 {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.spotlight-inner-div2 {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.spotlight-building-info-inner {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.spotlight-building-info-outer {
+  display: flex;
+  padding: 0px 60px;
+}
+
+.spotlight-building-info-inner img {
+  width: 40px;
+  height: 40px;
+}
+
+.spotlight-building-info-details {
+  padding-left: 20px;
+}
+
+.spotlight-small-text {
+  font-size: 12px;
+}
+
+.spotlight-big-text {
+  font-weight: 600;
+}
+
+.spotlight-middle-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 50px;
+  height: 300px;
+  border: solid black 1px;
+}
