@@ -1,0 +1,132 @@
+
+:root{
+    --primary-color: #000000;
+    --text-color:  #ffffff;
+    --secondary-text-color: #b5acac;
+}
+
+
+
+
+
+
+
+
+.footer-card-img-div img {
+    height: 90px;
+}
+
+.footer-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: system-ui;
+    font-size: 14px;
+}
+.footer-card {
+    width: 270px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.footer-card-links-description a {
+    text-decoration: none;
+    color: #b5acac;
+    line-height: 2.5;
+    font-family: system-ui;
+    font-size: 14px;
+}
+.footer-nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.flex-column a {
+    text-decoration: none;
+    color:  var(--primary-color);
+    font-size: 17px; 
+}
+.fa.fa-user {
+    font-size: 30px;
+    color: #5e5b5b;
+}
+.footer-nav-container {
+    display: none;
+}
+#regions {
+    text-decoration: none;
+    border: none;
+    background-color: antiquewhite;
+}
+.footer-card-img-description {
+    color: #b5acac;
+    font-family: system-ui;
+    font-size: 14px;
+}
+.footer-card-contacts-description {
+    color: #b5acac;
+    font-family: system-ui;
+    font-size: 14px;
+}
+.footer-card.footer-links {
+    width: 170px;
+}
+.footer-card-links-title {
+    font-weight: 600;
+}
+.footer-card-contacts-title {
+    font-weight: 600;
+}
+.footer-card-logo-title {
+    font-weight: 600;
+}
+.footer-card-logo-images img {
+    height: 27px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .footer-card-container {
+        display: none;
+    }
+
+    .footer-nav-container {
+        display: flex;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        justify-content: space-around;
+        background-color: antiquewhite;
+    }
+  }
+
+
+
+
