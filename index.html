@@ -15,11 +15,11 @@
 <body>
   <nav class="navbar">
     <div class="navbar-logo"><img src="./assets/images/logo.png.webp"></div>
-    <div class="searchbar"><i class="fa-solid fa-magnifying-glass" style="color: #717171;"></i><input
+    <div class="searchbar"><i class="fa-solid fa-magnifying-glass search-icon" style="color: #717171;"></i><input
         placeholder="Search by Locality, City or Project Name "></div>
     <div class="navbar-links">
-      <div>Buy</div>
-      <div>New Launches</div>
+      <div><a href="#">Buy</a></div>
+      <div><a href="#">New Launches</a></div>
       <div>
         <div class="dropdown">
           <button class="dropbtn">Select City ▼</button>
@@ -32,19 +32,51 @@
       </div>
       <div><button class="login-button"><i class="fa-solid fa-user" style="color: #ffffff;"></i>Login</button></div>
     </div>
-    <div class="navbar-toggle"><button class="navbar-button"><img src="./assets/images/menubar-icon.png"></button>
+    <div class="navbar-toggle"><button class="navbar-button"><i class="fa-solid fa-bars"
+          style="color: #ffffff;"></i></button>
     </div>
   </nav>
-  <div class="second-heading">
+  <div class="sub-navbar">
     <div>Best Deals</div>
     <div>New Launches</div>
     <div>Trending Projects</div>
     <div>Project Spotlight</div>
     <div>Top Developers</div>
   </div>
-  <section>
-  </section>
-</body>
 
+  <!-- Top Developers code -->
+  <section class="top-devs-section">
+    <div class="top-devs-heading">
+      Top Developers
+    </div>
+    <div class="top-devs-container">
+      <div class="top-devs-card"><img src="./assets/images/top-dev-1.png"></div>
+      <div class="top-devs-card"><img src="./assets/images/top-dev-2.png"></div>
+      <div class="top-devs-card"><img src="./assets/images/top-dev-3.png"></div>
+      <div class="top-devs-card"><img src="./assets/images/top-dev-4.png"></div>
+      <div class="top-devs-card"><img src="./assets/images/top-dev-5.png"></div>
+    </div>
+  </section>
+
+  <!-- Find Dream home code  -->
+  <section class="dreamhome-section">
+    <div class="dreamhome-heading">Find Your Dream Home in Popular City</div>
+    <div class="dreamhome-container">
+      <div class="dreamhome-city-card"><img src="./assets/images/city-1.jpg">
+        <div class="dreamhome-shadow-overlay">Navi Mumbai</div>
+      </div>
+      <div class="dreamhome-city-card"><img src="./assets/images/city-2.jpg">
+        <div class="dreamhome-shadow-overlay">Mumbai</div>
+      </div>
+      <div class="dreamhome-city-card"><img src="./assets/images/city-3.jpg">
+        <div class="dreamhome-shadow-overlay">Pune</div>
+      </div>
+      <div class="dreamhome-city-card"><img src="./assets/images/city-4.jpg">
+        <div class="dreamhome-shadow-overlay">Thane</div>
+      </div>
+    </div>
+  </section>
+
+</body>
 
 </html>
