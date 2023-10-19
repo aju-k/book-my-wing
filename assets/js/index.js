@@ -5,13 +5,16 @@ document.addEventListener("DOMContentLoaded", () => {
     navbarLinks.classList.toggle("active");
   });
 
-  const navbarList = document.querySelector(".navbar-list");
-  navbarList.addEventListener("click", () => {
-    navbarList.classList.toggle("active");
-  });
+  // const navbarList = document.querySelector(".navbar-list");
+  // navbarList.addEventListener("click", () => {
+  //   navbarList.classList.toggle("active");
+  // });
 
-  const dropdown = document.querySelector(".dropdown");
+  const dropdown = document.querySelector(".dropbtn");
+
   dropdown.addEventListener("click", () => {
-    this.classList.toggle("active");
+    const dropdownList = document.querySelector(".dropdown-content");
+    console.log(dropdownList);
+    dropdownList.classList.toggle("active");
   });
 });
